@@ -1,0 +1,25 @@
+.inicioSesion {
+    min-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.1rem;
+    border: 1px solid #8c9799;
+    padding: 40px;
+    border-radius: 9px;
+    font-weight: 400;
+    color: #eee;
+}
+
+@media (max-width: 500px) {
+    .inicioSesion {
+        min-width: 90%;
+    }
+}
+
+.btn-primary_override {
+    color: #fff !important;
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+}

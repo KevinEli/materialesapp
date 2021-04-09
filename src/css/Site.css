@@ -1,0 +1,67 @@
+@charset "UTF-8";
+.overlay {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+.cv-spinner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px #ddd solid;
+    border-top: 4px #2e93e6 solid;
+    border-radius: 50%;
+    animation: sp-anime 0.8s infinite linear;
+}
+
+.spinner_principal {
+    height: 40%
+}
+
+.spinner_secondary {
+    height: 5%
+}
+
+.color_special_site {
+    background-color: #007bc399;;
+}
+
+.nav_to_end {
+    margin-right: -100px;
+}
+
+.breadcrumb {
+    background-color: white;
+    border: 1.5px solid #d4eeff;
+    padding: 0.3rem 1rem;
+}
+
+.form-control {
+    height: calc(1.4em + 0.74rem + 1px);
+}
+
+.fieldset-custom {
+    border: 1px solid #007bc399;
+    padding: 5px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #e6eaec;
+}
+
+.detalle-orden table > thead > tr {
+    font-size: 14px;
+}
+.navbar-light .navbar-brand {
+    color: rgb(255 255 255 / 90%);
+}
